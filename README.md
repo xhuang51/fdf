@@ -1,3 +1,6 @@
+## Description of datasets.sat_scores
+Table contains 
+
 ## question #1
 Which school has the highest average SAT writing score?
 
