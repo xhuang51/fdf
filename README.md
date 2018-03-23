@@ -10,4 +10,4 @@ Select school, avg(sat_math + sat_verbal + sat_writing) as avg_sat_score
   group by school
   order by avg_sat_score desc
 ```
-![fdf](visualizations/#1.jpg)
+![README](visualizations/#1.jpg)
