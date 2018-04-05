@@ -31,7 +31,7 @@ Which school has the most hard-working students based on average study hours?
 Select school, avg(hrs_studied)
 from datasets.sat_scores
 group by school
-Order by school desc
+Order by avg desc
 ```
 ![fdf](Visualizations/Graph3.png)
 
@@ -44,3 +44,16 @@ Select hrs_studied, sum(sat_math + sat_verbal + sat_writing) as total_sat_score
   group by hrs_studied
   order by hrs_studied ASC
 ```
+![fdf](Visualizations/Graph3.png)
+
+## question #5
+Which school has students that is good at math based on the average math score?
+
+```sql
+Select school, avg(sat_math)
+from datasets.sat_scores
+group by school
+Order by avg desc
+111
+
+
