@@ -1,5 +1,5 @@
 ## Description of datasets.sat_scores
-This table contains 3 categorical data, including school name, teachers' names and student ID, as well as 4 numerical data including SAT writing scores, SAT verbal scores, SAT math scores and the hours that each student studied for the test.
+The SAT is a test widely taken by students before they apply for universities in USA. This test has three components, writing test, verbal test and math test. By analyzing this dataset, I want to find factors that may affect students’ test scores. This dataset contains 3 categorical data, including school name, teachers' names and student ID, as well as 4 numerical data including SAT writing scores, SAT verbal scores, SAT math scores and the hours that each student studied for the test. 
 
 ## question #1
 Which school has the highest average SAT writing score?
